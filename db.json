@@ -1,0 +1,23 @@
+{
+  "login": {
+    "staus": true,
+    "error": null,
+    "user_token": "7WA6CCCvdaAvMnBf8Uz8JyvzyfGmQEG7"
+  },
+
+  "login_e": {
+    "staus": false,
+    "error": ["ユーザー名かパスワードが間違っています。"],
+    "user_token": null
+  },
+
+  "sign_up": {
+    "status": true,
+    "error": null
+  },
+
+  "sign_up_e": {
+    "status": false,
+    "error": ["ユーザー登録できませんでした。"]
+  }
+}
