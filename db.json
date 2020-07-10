@@ -1,12 +1,12 @@
 {
   "login": {
-    "staus": true,
+    "status": true,
     "error": null,
     "user_token": "7WA6CCCvdaAvMnBf8Uz8JyvzyfGmQEG7"
   },
 
   "login_e": {
-    "staus": false,
+    "status": false,
     "error": ["ユーザー名かパスワードが間違っています。"],
     "user_token": null
   },
@@ -19,5 +19,122 @@
   "sign_up_e": {
     "status": false,
     "error": ["ユーザー登録できませんでした。"]
-  }
+  },
+
+  "start_quiz": {
+    "status": true,
+    "quiz_token": "q5R4hC2nF2L5y6bS7g5Dd8FUpisCAEG6"
+  },
+
+  "start_quiz_e": {
+    "status": false,
+    "error": ["クイズが開始できませんでした。"]
+  },
+
+  "questions" : [
+    {
+      "choice" : ["choice1","choice2","choice3","choice4"],
+      "points": [10, 5, 0, -5],
+      "answer" : "choice1"
+    },
+    {
+      "choice" : ["choice11","choice12","choice13","choice14"],
+      "points": [10, 5, 0, -5],
+      "answer" : "choice11"
+    },
+    {
+      "choice" : ["choice21","choice22","choice23","choice24"],
+      "points": [10, 5, 0, -5],
+      "answer" : "choice21"
+    },
+    {
+      "choice" : ["choice31","choice32","choice33","choice34"],
+      "points": [-5, 0, 10, 5],
+      "answer" : "choice33"
+    },
+    {
+      "choice" : ["choice41","choice42","choice43","choice44"],
+      "points": [10, 5, 0, -5],
+      "answer" : "choice41"
+    },
+    {
+      "choice" : ["choice51","choice52","choice53","choice54"],
+      "points": [-5, 10, 5, 0],
+      "answer" : "choice52"
+    },
+    {
+      "choice" : ["choice61","choice62","choice63","choice64"],
+      "points": [0, 5, 10, -5],
+      "answer" : "choice63"
+    },
+    {
+      "choice" : ["choice71","choice72","choice73","choice74"],
+      "points": [10, -5, 0, 5],
+      "answer" : "choice71"
+    },
+    {
+      "choice" : ["choice81","choice82","choice83","choice84"],
+      "points": [0, -5, 5, 10],
+      "answer" : "choice84"
+    },
+    {
+      "choice" : ["choice91","choice92","choice93","choice94"],
+      "points": [10, -5, 0, 5],
+      "answer" : "choice91"
+    }
+  ],
+
+  "questions_e": [],
+
+  "ranking": {
+    "player": {
+      "user_name": "1位のユーザーネーム",
+      "rank" : 100,
+      "score": 1000
+    },
+    "top_users": [
+      {
+        "user_name": "1位のユーザーネーム",
+        "score": 1000
+      },
+      {
+        "user_name": "2位のユーザーネーム",
+        "score": 900
+      },
+      {
+        "user_name": "3位のユーザーネーム",
+        "score": 800
+      },
+      {
+        "user_name": "4位のユーザーネーム",
+        "score": 700
+      },
+      {
+        "user_name": "5位のユーザーネーム",
+        "score": 600
+      },
+      {
+        "user_name": "6位のユーザーネーム",
+        "score": 500
+      },
+      {
+        "user_name": "7位のユーザーネーム",
+        "score": 400
+      },
+      {
+        "user_name": "8位のユーザーネーム",
+        "score": 300
+      },
+      {
+        "user_name": "9位のユーザーネーム",
+        "score": 200
+      },
+      {
+        "user_name": "10位のユーザーネーム",
+        "score": 100
+      }
+    ]
+  },
+
+  "ranking_e": []
 }

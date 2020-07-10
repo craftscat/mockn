@@ -6,7 +6,15 @@ const middlewares = jsonServer.defaults();
 // routing list 
 server.use(jsonServer.rewriter({
   "/v1/sign_up": "/sign_up",
-  "/v1/sign_up_e": "/sign_up_e"
+  "/v1/sign_up_e": "/sign_up_e",
+  "/v1/login": "/login",
+  "/v1/login_e": "/login_e",
+  "/v1/start_quiz": "/start_quiz",
+  "/v1/start_quiz_e": "/start_quiz_e",
+  "/v1/questions": "/questions",
+  "/v1/questions_e": "/questions_e",
+  "/v1/ranking": "/ranking",
+  "/v1/ranking_e": "/ranking_e"
 }))
 
 // Middlewares configuration
