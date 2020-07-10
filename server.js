@@ -14,7 +14,9 @@ server.use(jsonServer.rewriter({
   "/v1/questions": "/questions",
   "/v1/questions_e": "/questions_e",
   "/v1/ranking": "/ranking",
-  "/v1/ranking_e": "/ranking_e"
+  "/v1/ranking_e": "/ranking_e",
+  "/v1/send_score": "/send_score",
+  "/v1/send_score_e": "/send_score_e"
 }))
 
 // Middlewares configuration

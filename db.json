@@ -31,6 +31,15 @@
     "error": ["クイズが開始できませんでした。"]
   },
 
+  "send_score": {
+    "status": true
+  },
+
+  "send_score_e": {
+    "status": false,
+    "error": ["スコアの登録に失敗しました"]
+  },
+
   "questions" : [
     {
       "choice" : ["choice1","choice2","choice3","choice4"],
