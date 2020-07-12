@@ -2,13 +2,13 @@
   "login": {
     "status": true,
     "error": null,
-    "user_token": "7WA6CCCvdaAvMnBf8Uz8JyvzyfGmQEG7"
+    "user_token": "7WA6CCCvdaAvMnBf8Uz8JyvzyfGmQEG7",
+    "user_name": "user"
   },
 
   "login_e": {
     "status": false,
-    "error": ["ユーザー名かパスワードが間違っています。"],
-    "user_token": null
+    "error": ["ユーザー名かパスワードが間違っています。"]
   },
 
   "sign_up": {
