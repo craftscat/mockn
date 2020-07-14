@@ -85,7 +85,7 @@
 
   "questions_e": [],
 
-  "ranking/user": {
+  "ranking": {
     "player": {
       "user_name": "1位のユーザーネーム",
       "rank" : 100,
@@ -135,5 +135,5 @@
     ]
   },
 
-  "ranking/user_e": []
+  "ranking_e": []
 }

@@ -13,8 +13,8 @@ server.use(jsonServer.rewriter({
   "/v1/start_quiz_e": "/start_quiz_e",
   "/v1/questions": "/questions",
   "/v1/questions_e": "/questions_e",
-  "/v1/ranking/user": "/ranking/user",
-  "/v1/ranking/user_e": "/ranking/user_e",
+  "/v1/ranking/user": "/ranking",
+  "/v1/ranking/user_e": "/ranking_e",
   "/v1/send_score": "/send_score",
   "/v1/send_score_e": "/send_score_e"
 }))
