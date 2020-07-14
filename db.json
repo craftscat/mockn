@@ -1,34 +1,24 @@
 {
   "login": {
     "status": true,
-    "error": null,
+    "error_message": null,
     "user_token": "7WA6CCCvdaAvMnBf8Uz8JyvzyfGmQEG7",
     "user_name": "user"
   },
 
   "login_e": {
     "status": false,
-    "error": ["ユーザー名かパスワードが間違っています。"]
+    "error_message": ["ユーザー名かパスワードが間違っています。"]
   },
 
   "sign_up": {
     "status": true,
-    "error": null
+    "error_message": null
   },
 
   "sign_up_e": {
     "status": false,
-    "error": ["ユーザー登録できませんでした。"]
-  },
-
-  "start_quiz": {
-    "status": true,
-    "quiz_token": "q5R4hC2nF2L5y6bS7g5Dd8FUpisCAEG6"
-  },
-
-  "start_quiz_e": {
-    "status": false,
-    "error": ["クイズが開始できませんでした。"]
+    "error_message": ["ユーザー登録できませんでした。"]
   },
 
   "send_score": {
@@ -37,7 +27,7 @@
 
   "send_score_e": {
     "status": false,
-    "error": ["スコアの登録に失敗しました"]
+    "error_message": ["スコアの登録に失敗しました"]
   },
 
   "questions" : [
